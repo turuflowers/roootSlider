@@ -1,0 +1,17 @@
+*	Author: Nicolás Flores (http://www.nicolasflores.com.ar)
+*	Web plugin: http://www.roootgroup.com.ar/roootSlider)
+*	Version: 0.1
+
+roootSlider
+Otro plugin de slider.
+
+Un slider más en el mercado, pero a diferencia de otros, este es muy fácil de configurar. Está preparado para ser combinable con cualquier otro plugin, pero sobretodo, para que el mantenimiento sea extremadamente simple.
+
+Características:
+
+Cada opción del selector carga un modulo diferente al que se le aplican slides.
+Cada modulo puede tener tantos slides (wrapper) como se desee, el plugin calcula automáticamente cuando frenar.
+El contenido de cada slide no está limitado a ningún markup HTML especial. Se puede poner lo que quiera.
+Agregar nuevos slides es tán fácil como copiar y pegar uno ya existente... el plugin calcula automáticamente el resto.
+Agregar opciones en el selector es igual de sencillo, copy/paste. Hasta las opciones de CSS son automáticas!
+Borrar no es tan automático... si se borra la opción en el selector, hay que borrar su wrapper correspondiente.
