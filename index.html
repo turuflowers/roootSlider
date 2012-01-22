@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-ES" lang="es-ES" dir="ltr">
+<head>
+<title>RoootSlider</title>
+
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="roootSlider. Another slider plugin." />
+<meta name="keywords" content="slider, banner, plugin, jquery, easy" />
+<meta name="generator" content="RoootGroup. Nicolás Flores." />
+
+
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js">IE7_PNG_SUFFIX=".png";</script>
+<![endif]-->
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/codeview.js" type="text/javascript"></script>
+<script src="js/roootSlider.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.roootSlider').roootSlider();
+	});
+</script>
+
+
+</head>
+
+<body>
+	<div class="page">
+		<h1>roootSlider</h1>
+		<h2>Otro plugin de slider.</h2>
+		
+		<!-- <roootSlider> -->
+		<div class="roootSlider">
+			<div class="display">
+				<div class="module">
+					<div class="wrapper">
+						<a href="http://turu.deviantart.com/art/Body-Line-1-54336650?q=gallery%3Aturu%2F5341972&qo=0"><img src="images/thumbs/bl_1.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Body-Line-2-54336799?q=gallery%3Aturu%2F5341972&qo=1"><img src="images/thumbs/bl_2.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Body-Line-3-54336921?q=gallery%3Aturu%2F5341972&qo=2"><img src="images/thumbs/bl_3.jpg" /></a>
+					</div>
+					<div class="wrapper">
+						<a href="http://turu.deviantart.com/art/Body-Line-4-54337281?q=gallery%3Aturu%2F5341972&qo=3"><img src="images/thumbs/bl_4.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Body-Line-5-54337156?q=gallery%3Aturu%2F5341972&qo=4"><img src="images/thumbs/bl_5.jpg" /></a>
+					</div>
+				</div>
+				<div class="module">
+					<div class="wrapper">
+						<a href="http://turu.deviantart.com/art/Color-Red-160256180?q=gallery%3Aturu%2F5341979&qo=0"><img src="images/thumbs/rojo.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Color-Orange-160255910?q=gallery%3Aturu%2F5341979&qo=1"><img src="images/thumbs/naranja.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Color-Yellow-160255749?q=gallery%3Aturu%2F5341979&qo=2"><img src="images/thumbs/amarillo.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Color-Green-160255588?q=gallery%3Aturu%2F5341979&qo=3"><img src="images/thumbs/verde.jpg" /></a>
+					</div>
+					<div class="wrapper">
+						<a href="http://turu.deviantart.com/art/Color-Cyan-160255421?q=gallery%3Aturu%2F5341979&qo=4"><img src="images/thumbs/celeste.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Color-Blue-160255262?q=gallery%3Aturu%2F5341979&qo=5"><img src="images/thumbs/azul.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Color-Violet-160255016?q=gallery%3Aturu%2F5341979&qo=6"><img src="images/thumbs/violeta.jpg" /></a>
+					</div>
+				</div>
+				<div class="module">
+					<div class="wrapper">
+						<a href="http://turu.deviantart.com/art/Jim-Morrison-167532875?q=gallery%3Aturu%2F25558934&qo=0"><img src="images/thumbs/morrison.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Mick-Jagger-167533009?q=gallery%3Aturu%2F25558934&qo=1"><img src="images/thumbs/jagger.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/John-Lennon-167533119?q=gallery%3Aturu%2F25558934&qo=2"><img src="images/thumbs/lennon.jpg" /></a>
+						<a href="http://turu.deviantart.com/art/Bob-Marley-167532736?q=gallery%3Aturu%2F25558934&qo=3"><img src="images/thumbs/marley.jpg" /></a>
+					</div>
+				</div>					
+				<div class="prev"></div>
+				<div class="next"></div>
+			</div> <!-- </display> -->
+			<div class="selector">
+				<div class="pointer"></div>
+				<ul>
+					<li>Body Line</li>
+					<li>Color</li>
+					<li>Influence</li>
+				</ul>
+			</div> <!-- </selector> -->
+		</div> 
+		<!-- </roootSlider> -->
+		
+		<p>Un slider más en el mercado, pero a diferencia de otros, este es muy fácil de configurar. Está preparado para ser combinable con cualquier otro plugin, pero sobretodo, para que el mantenimiento sea extremadamente simple.</p>
+		<h3>Características</h3>
+		<ul>
+			<li>Cada opción del selector carga un modulo diferente al que se le aplican slides.</li>
+			<li>Cada modulo puede tener tantos slides (wrapper) como se desee, el plugin calcula automáticamente cuando frenar.</li>
+			<li>El contenido de cada slide no está limitado a ningún markup HTML especial. Se puede poner lo que quiera.</li>
+			<li>Agregar nuevos slides es tán fácil como copiar y pegar uno ya existente... el plugin calcula automáticamente el resto.</li>
+			<li>Agregar opciones en el selector es igual de sencillo, copy/paste. Hasta las opciones de CSS son automáticas!</li>
+			<li>Borrar no es tan automático... si se borra la opción en el selector, hay que borrar su wrapper correspondiente.</li>
+		</ul>
+		<h3>Código HTML</h3>
+        <pre class="codeview html lineNumbers" style="width:700px; height:300px;">
+&lt;div class=&quot;roootSlider&quot;&gt;
+	&lt;div class=&quot;display&quot;&gt;
+		&lt;div class=&quot;module&quot;&gt;
+			&lt;div class=&quot;wrapper&quot;&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Body-Line-1-54336650?q=gallery%3Aturu%2F5341972&amp;qo=0&quot;&gt;&lt;img src=&quot;images/thumbs/bl_1.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Body-Line-2-54336799?q=gallery%3Aturu%2F5341972&amp;qo=1&quot;&gt;&lt;img src=&quot;images/thumbs/bl_2.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Body-Line-3-54336921?q=gallery%3Aturu%2F5341972&amp;qo=2&quot;&gt;&lt;img src=&quot;images/thumbs/bl_3.jpg&quot; /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;wrapper&quot;&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Body-Line-4-54337281?q=gallery%3Aturu%2F5341972&amp;qo=3&quot;&gt;&lt;img src=&quot;images/thumbs/bl_4.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Body-Line-5-54337156?q=gallery%3Aturu%2F5341972&amp;qo=4&quot;&gt;&lt;img src=&quot;images/thumbs/bl_5.jpg&quot; /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;module&quot;&gt;
+			&lt;div class=&quot;wrapper&quot;&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Color-Red-160256180?q=gallery%3Aturu%2F5341979&amp;qo=0&quot;&gt;&lt;img src=&quot;images/thumbs/rojo.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Color-Orange-160255910?q=gallery%3Aturu%2F5341979&amp;qo=1&quot;&gt;&lt;img src=&quot;images/thumbs/naranja.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Color-Yellow-160255749?q=gallery%3Aturu%2F5341979&amp;qo=2&quot;&gt;&lt;img src=&quot;images/thumbs/amarillo.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Color-Green-160255588?q=gallery%3Aturu%2F5341979&amp;qo=3&quot;&gt;&lt;img src=&quot;images/thumbs/verde.jpg&quot; /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;wrapper&quot;&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Color-Cyan-160255421?q=gallery%3Aturu%2F5341979&amp;qo=4&quot;&gt;&lt;img src=&quot;images/thumbs/celeste.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Color-Blue-160255262?q=gallery%3Aturu%2F5341979&amp;qo=5&quot;&gt;&lt;img src=&quot;images/thumbs/azul.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Color-Violet-160255016?q=gallery%3Aturu%2F5341979&amp;qo=6&quot;&gt;&lt;img src=&quot;images/thumbs/violeta.jpg&quot; /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;module&quot;&gt;
+			&lt;div class=&quot;wrapper&quot;&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Jim-Morrison-167532875?q=gallery%3Aturu%2F25558934&amp;qo=0&quot;&gt;&lt;img src=&quot;images/thumbs/morrison.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Mick-Jagger-167533009?q=gallery%3Aturu%2F25558934&amp;qo=1&quot;&gt;&lt;img src=&quot;images/thumbs/jagger.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/John-Lennon-167533119?q=gallery%3Aturu%2F25558934&amp;qo=2&quot;&gt;&lt;img src=&quot;images/thumbs/lennon.jpg&quot; /&gt;&lt;/a&gt;
+				&lt;a href=&quot;http://turu.deviantart.com/art/Bob-Marley-167532736?q=gallery%3Aturu%2F25558934&amp;qo=3&quot;&gt;&lt;img src=&quot;images/thumbs/marley.jpg&quot; /&gt;&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt; 
+		&lt;div class=&quot;prev&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;next&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt; &lt;!-- &lt;/display&gt; --&gt;
+	&lt;div class=&quot;selector&quot;&gt;
+		&lt;div class=&quot;pointer&quot;&gt;&lt;/div&gt;
+		&lt;ul&gt;
+			&lt;li&gt;Body Line&lt;/li&gt;
+			&lt;li&gt;Color&lt;/li&gt;
+			&lt;li&gt;Influence&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt; &lt;!-- &lt;/selector&gt; --&gt;
+&lt;/div&gt; 
+</pre>
+	  <p></p>
+		<h3>Código JS</h3>
+<pre class="codeview js lineNumbers" style="width:700px; height:100px;">$(document).ready(function(){
+$('.roootSlider').roootSlider();
+});
+</pre>
+
+	<div class="licencia">
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">roootSlider</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.nicolasflores.com.ar" property="cc:attributionName" rel="cc:attributionURL">Nicolás Flores</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.roootgroup.com.ar/roootSlider" rel="dct:source">www.roootgroup.com.ar</a>.
+	</div>
+	</div>
+</body>
+</html>
